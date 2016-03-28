@@ -49,40 +49,38 @@ public class ComplementaryColor {
 
 			System.out.println("Sua cor complementar �: " + cColor + "!");
 		}
-		else {
-				(args[0].equals("es")) {
-				String color = args[1];
-				System.out.print("Cool, You chosen \"" + color);
-				String representation = "";
-				String cColor = "";
-				if ("red".equals(color)) {
-					representation = "tomate";
-					cColor = "green";
-				}
-				else if ("purple".equals(color)) {
-					representation = "eggplant";
-					cColor = "yellow";
-				}
-				else if ("blue".equals(color)) {
-					representation = "blueberry";
-					cColor = "orange";
-				}
-				else if ("green".equals(color)) {
-					representation = "lettuce";
-					cColor = "red";
-				}
-				else if ("yellow".equals(color)) {
-					representation = "melon";
-					cColor = "purple";
-				}
-				else if ("orange".equals(color)) {
-					representation = "tangerine";
-					cColor = "blue";
-				};
-				System.out.println("\", color of " + representation + ".");
+		else (args[0].equals("en")) {
+			String color = args[1];
+			System.out.print("Cool, You chosen \"" + color);
+			String representation = "";
+			String cColor = "";
+			if ("red".equals(color)) {
+				representation = "tomate";
+				cColor = "green";
+			}
+			else if ("purple".equals(color)) {
+				representation = "eggplant";
+				cColor = "yellow";
+			}
+			else if ("blue".equals(color)) {
+				representation = "blueberry";
+				cColor = "orange";
+			}
+			else if ("green".equals(color)) {
+				representation = "lettuce";
+				cColor = "red";
+			}
+			else if ("yellow".equals(color)) {
+				representation = "melon";
+				cColor = "purple";
+			}
+			else if ("orange".equals(color)) {
+				representation = "tangerine";
+				cColor = "blue";
+			};
+			System.out.println("\", color of " + representation + ".");
 
-				System.out.println("It's Your complementary color: " + cColor + "!");
-				}
+			System.out.println("It's Your complementary color: " + cColor + "!");
 			}
 		}
 	}
